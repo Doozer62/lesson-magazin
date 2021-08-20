@@ -1,65 +1,66 @@
-            @import 'base/*.scss';
-@import 'global/*.scss';
-@import '**/_*.scss';
-@import '../components/**/*.scss';
-.header {
-    &__top {
-        padding: 17px 0;
-        text-transform: uppercase;
-        display: flex;
-        justify-content: space-between;
-        font-style: Bold;
-        font-size: 13px;
-        line-height: 16px;
-        align-items: center;
-    }
-}
-
-.header-top {
-    &__inner {
-        background-color: #31352B;
-    }
-}
-
-.header {
-    &__top {
-        display: flex;
-        justify-content: space-between;
-        padding: 17px 0;
-        text-transform: uppercase;
-        color: #fff;
-    }
-}
-
-.header-top {
-    &__delivery {
-        position: relative;
-        display: block;
-    }
-    &::before {
-        position: absolute;
-        content: '';
-        background-image: url(svg/css/delivery.svg);
-        width: 60px;
-        height: 60px;
-        top: 0;
-        right: 0;
-    }
-}
-
-.menu {
-    &__list {
-        display: flex;
-        justify-content: space-between;
-    }
-    .menu {
-        &__list {
-            display: flex;
-            .menu {
-                &__list {
-                    display: flex;
-                }
-                &__list-link {
-                    margin-left: 24px;
-                }
-            }
+                                    @import 'base/*.scss';
+                        @import 'global/*.scss';
+                        @import '**/_*.scss';
+                        @import '../components/**/*.scss';
+                        .header {
+                            &__top {
+                                padding: 17px 0;
+                                text-transform: uppercase;
+                                display: flex;
+                                justify-content: space-between;
+                                font-style: Bold;
+                                font-size: 13px;
+                                line-height: 16px;
+                                align-items: center;
+                            }
+                        }
+                        
+                        .header-top {
+                            &__inner {
+                                background-color: #31352B;
+                                color: #fff;
+                            }
+                        }
+                        
+                        .header {
+                            &__top {
+                                display: flex;
+                                justify-content: space-between;
+                                padding: 17px 0;
+                                text-transform: uppercase;
+                                color: #fff;
+                            }
+                        }
+                        
+                        .header-top {
+                            &__delivery {
+                                position: relative;
+                                display: block;
+                            }
+                            &::before {
+                                position: absolute;
+                                content: '';
+                                background-image: url(svg/css/delivery.svg);
+                                width: 60px;
+                                height: 60px;
+                                top: 0;
+                                right: 0;
+                            }
+                        }
+                        
+                        .menu {
+                            &__list {
+                                display: flex;
+                                justify-content: space-between;
+                            }
+                            .menu {
+                                &__list {
+                                    display: flex;
+                                    .menu {
+                                        &__list {
+                                            display: flex;
+                                        }
+                                        &__list-link {
+                                            margin-left: 24px;
+                                        }
+                                    }
